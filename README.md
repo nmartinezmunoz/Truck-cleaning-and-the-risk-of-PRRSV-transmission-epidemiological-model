@@ -23,7 +23,8 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 ### Installation
 
 1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project folder: `cd PigFarmDiseaseSpread`
+2. Navigate to the project folder: `cd Understanding-the-Network-of-Pig-Farm-Truck-Movements-and-Its-Role-in-Disease-Spread
+`
 
 ### Usage
 
