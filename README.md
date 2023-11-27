@@ -28,7 +28,7 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 ### Usage
 
 1. Open RStudio or your preferred R environment.
-2. Run the scripts in the following order: [data_analysis, network_analysis,_epidemiological_model].
+2. Run the scripts in the following order: [data_analysis, network_analysis, epidemiological_model].
 3. Customize parameters or datasets as needed.
 
 ## Contributing
