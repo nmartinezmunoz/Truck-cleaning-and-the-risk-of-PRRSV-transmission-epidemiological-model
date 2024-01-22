@@ -12,13 +12,31 @@ UniqueFarm <- unique(mov)
 wash_station <- dataset$wash_station  # Binomial values: 1 for washed, 0 for not washed
 
 # doSim Function
-# Simulates disease spread based on farm movements and previous truck wash.
+# Simulates potential sources of infection based on truck movements and previous truck hygiene status.
 doSim <- function(mov, wash_station) {
   infections <- rep(0, length(mov))
   for (i in 1:length(mov)) {
     closest_farm_idx <- which(mov == "farm" & seq_along(mov) > i)[1]
     if (!is.na(closest_farm_idx)) {
       if (1 %in% wash_station[i:(closest_farm_idx - 1)]) {
+        infections[i] <- rbinom(1, 1, probInf * (1 - 0.9))  # Effectiveness of wash: 90%
+      } else {
+        infections[i] <- rbinom(1, 1, probInf)
+      }
+    } else {
+      infections[i] <- rbinom(1, 1, probInf * (1 - 0.9 * wash_station[i]))
+    }
+  }
+  return(infections)
+}
+
+# Simulates spread risk of infection based on truck movements and previous truck hygiene status
+doSim <- function(mov, wash_station) {
+  infections <- rep(0, length(mov))
+  for (i in 1:length(mov)) {
+    closest_farm_idx <- which(mov == "farm" & seq_along(mov) < i)[1]
+    if (!is.na(closest_farm_idx)) {
+      if (1 %in% wash_station[(closest_farm_idx + 1):i]) {
         infections[i] <- rbinom(1, 1, probInf * (1 - 0.9))  # Effectiveness of wash: 90%
       } else {
         infections[i] <- rbinom(1, 1, probInf)
