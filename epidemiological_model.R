@@ -6,7 +6,7 @@ library(tidyr)
 
 # Parameters
 numSimulations <- 1000  # Adjust as needed
-probInf <- 0.428  # Based on relevant paper (Galvis et al., 2022)
+probInf <- 0.428  # Based on relevant paper (Galvis et al., 2022) #transmission rate
 mov <- dataset$farm
 UniqueFarm <- unique(mov)
 wash_station <- dataset$wash_station  # Binomial values: 1 for washed, 0 for not washed
