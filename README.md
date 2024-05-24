@@ -1,4 +1,4 @@
-# Truck hygiene and the risk of PRRSV transmission in multi-site pig production systems: A network-epidemiological model approach 
+# Truck cleaning and disinfection, and the risk of PRRSV transmission in multi-site pig production systems: A network-epidemiological model approach 
 Explore pig farm disease dynamics using data analysis, social network analysis, and an epidemiological model. Gain insights to enhance disease control strategies.
 # Pig Farm Disease Spread Analysis
 
@@ -32,9 +32,6 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 2. Run the scripts in the following order: [data_analysis, network_analysis, epidemiological_model].
 3. Customize parameters or datasets as needed.
 
-## Contributing
-
-If you would like to contribute to this project, please xxxxxxxxxxx
 
 ## License
 
@@ -44,5 +41,5 @@ This project is licensed under the MIT License -
 
 - Mention any contributors or external resources you used.
   The author is funded by (ANID)
-  contributors: Dr Joaquin Prada
+  Coauthor: Dr Joaquin M Prada
 
