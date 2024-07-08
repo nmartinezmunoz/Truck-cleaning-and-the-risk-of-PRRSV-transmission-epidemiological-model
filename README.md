@@ -39,7 +39,5 @@ This project is licensed under the MIT License -
 
 ## Acknowledgments
 
-- Mention any contributors or external resources you used.
-  The author is funded by (ANID)
-  Coauthor: Dr Joaquin M Prada
+Coauthor: Dr Joaquin M Prada
 
