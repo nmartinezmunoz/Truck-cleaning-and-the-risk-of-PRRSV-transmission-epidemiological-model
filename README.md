@@ -9,7 +9,6 @@ This repository contains R code for analyzing and simulating the spread of infec
 ## Key Features
 
 - **Data Analysis:** Explore and analyze datasets, descriptive statistics, and the compute of the shortest road paths between the premises and estimate the distances travelled for movements. 
-- **Social Network Analysis:** Investigate the network structure of pig farm truck movements to identify key influencers in disease spread.
 - **Epidemiological Model:** Develop and simulate an epidemiological model to assess the probability of disease transmission within the pig farm network.
 
 ## Getting Started
