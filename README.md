@@ -1,10 +1,10 @@
 # Truck cleaning and disinfection, and the risk of PRRSV transmission in multi-site pig production systems: A network-epidemiological model approach 
-Explore pig farm disease dynamics using data analysis, social network analysis, and an epidemiological model. Gain insights to enhance disease control strategies.
+Explore pig farm disease dynamics using data analysis, and an epidemiological model. Gain insights to enhance disease control strategies.
 # Pig Farm Disease Spread Analysis
 
 ## Overview
 
-This repository contains R code for analyzing and simulating the spread of infectious diseases in pig farms using the records of truck movements. The project employs data analysis, social network analysis, and an epidemiological model to understand disease transmission dynamics through pig farm truck movements.
+This repository contains R code for analyzing and simulating the spread of infectious diseases in pig farms using the records of truck movements. The project employs data analysis, and an epidemiological model to understand disease transmission dynamics through pig farm truck movements.
 
 ## Key Features
 
