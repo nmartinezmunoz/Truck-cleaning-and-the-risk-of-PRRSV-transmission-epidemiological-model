@@ -1,42 +1,51 @@
-# Truck cleaning and disinfection, and the risk of PRRSV transmission in multi-site pig production systems: A network-epidemiological model approach 
-Explore pig farm disease dynamics using data analysis, and an epidemiological model. Gain insights to enhance disease control strategies.
-# Pig Farm Disease Spread Analysis
+🚛 Truck Cleaning and Disinfection, and the Risk of PRRSV Transmission in Multi-site Pig Production Systems: A Network-Epidemiological Model Approach
+Explore disease dynamics in pig production systems through network analysis and modelling. This repository supports the research presented in the paper:
 
-## Overview
+📄 Publication: Truck cleaning and disinfection, and the risk of PRRSV transmission in multi-site pig production systems: A network-epidemiological model approach
+https://doi.org/10.1016/j.prevetmed.2025.106539
+🧪 Preventive Veterinary Medicine, 2025
 
-This repository contains R code for analyzing and simulating the spread of infectious diseases in pig farms using the records of truck movements. The project employs data analysis, and an epidemiological model to understand disease transmission dynamics through pig farm truck movements.
+🐖 Project Overview
+This repository provides R code used to analyse and simulate the spread of Porcine Reproductive and Respiratory Syndrome Virus (PRRSV) within pig production networks. By integrating truck movement data with a network-epidemiological model, the project evaluates the risk of disease transmission and the impact of cleaning and disinfection interventions.
 
-## Key Features
+🔍 Key Features
+Data-Driven Network Analysis: Reconstruct truck movement networks between farms using GPS records.
 
-- **Data Analysis:** Explore and analyze datasets, descriptive statistics, and the compute of the shortest road paths between the premises and estimate the distances travelled for movements. 
-- **Epidemiological Model:** Develop and simulate an epidemiological model to assess the probability of disease transmission within the pig farm network.
+Epidemiological Modelling: Simulate PRRSV transmission to estimate infection probabilities and evaluate cleaning interventions.
 
-## Getting Started
+Scenario Exploration: Assess risk under realistic, optimistic, and pessimistic cleaning assumptions.
 
-### Prerequisites
+⚙️ Getting Started
+📦 Prerequisites
+RStudio Version: 2023.06.1+524 “Mountain Hydrangea” (Windows)
 
-- RStudio 2023.06.1+524 "Mountain Hydrangea" Release (547dcf861cac0253a8abb52c135e44e02ba407a1, 2023-07-07) for windows
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) RStudio/2023.06.1+524 Chrome/110.0.5481.208 Electron/23.3.0 Safari/537.36
-- R packages: tidyverse  (Wickham et al., 2019), igraph (Csardi & Nepusz, 2006) and osrm (Giraud, 2022). 
+Required R Packages:
 
-### Installation
+tidyverse (Wickham et al., 2019)
 
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project folder: `cd Understanding-the-Network-of-Pig-Farm-Truck-Movements-and-Its-Role-in-Disease-Spread
-`
+igraph (Csardi & Nepusz, 2006)
 
-### Usage
+💻 Installation
+bash
+Copy
+Edit
+# Clone the repository
+git clone <repository-url>
 
-1. Open RStudio or your preferred R environment.
-2. Run the scripts in the following order: [data_analysis, network_analysis, epidemiological_model].
-3. Customize parameters or datasets as needed.
+# Navigate to the project folder
+cd Understanding-the-Network-of-Pig-Farm-Truck-Movements-and-Its-Role-in-Disease-Spread
+🧪 Usage
+Open the project in RStudio or your preferred R environment.
 
+Run the scripts in the following order:
 
-## License
+epidemiological_model.R – Simulate disease spread and estimate infection probabilities.
 
-This project is licensed under the MIT License - 
+Modify model parameters or datasets as needed to adapt the analysis.
 
-## Acknowledgments
+📄 License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it with attribution.
 
-Coauthor: Dr Joaquin M Prada
+🤝 Acknowledgements
+Dr Joaquin M. Prada – Co-author and advisor
 
